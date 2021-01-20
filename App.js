@@ -50,7 +50,7 @@ function DrawerNavigator() {
                 activeTintColor: '#FC8074',
                 activeBackgroundColor: 'rgba(252, 128, 116, .2);',
                 inactiveTintColor: '#fff',
-
+                hideStatusBar: 'true',
                 itemStyle: { marginVertical: 10, borderRadius: 15.5, color: '#fff', padding: 0 },
                 labelStyle: { fontSize: 20, paddingLeft: 20, paddingBottom: 5, paddingTop: 5 }
             }}
@@ -61,7 +61,6 @@ function DrawerNavigator() {
             <Drawer.Screen name="Favourites" component={StackNavigator} />
             <Drawer.Screen name="Your Orders" component={StackNavigator} />
         </Drawer.Navigator>
-
     );
 }
 
